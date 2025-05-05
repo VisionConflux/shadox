@@ -28,6 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'shadox-app-3mqso.ondigitalocean.app']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://shadox-app-3mqso.ondigitalocean.app',
+    'https://www.shadox-app-3mqso.ondigitalocean.app'
+]
+
 
 # Application definition
 
