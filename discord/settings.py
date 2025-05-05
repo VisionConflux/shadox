@@ -33,6 +33,9 @@ CSRF_TRUSTED_ORIGINS = [
     'https://www.shadox-app-3mqso.ondigitalocean.app'
 ]
 
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
 
 # Application definition
 
