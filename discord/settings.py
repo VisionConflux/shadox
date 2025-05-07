@@ -29,8 +29,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'shadox-app-3mqso.ondigitalocean.app',
-    'https://spotcord.shadox.live/',
-    'https://shadox.live/'
+    'spotcord.shadox.live',
+    'shadox.live'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
