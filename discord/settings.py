@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-j)cux+()4@e@m!x_^u6s_4ey#gta4%cj)m!yhdki93edes^6eo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shadox-app-3mqso.ondigitalocean.app']
+ALLOWED_HOSTS = [
+    'shadox-app-3mqso.ondigitalocean.app',
+    'https://spotcord.shadox.live/',
+    'https://shadox.live/
+]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://shadox-app-3mqso.ondigitalocean.app',
